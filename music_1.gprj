@@ -1,0 +1,83 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AT-60B" pn="GW5AT-LV60PG484AES">gw5at60b-009</Device>
+    <FileList>
+        <File path="src/adsr_curve.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_chorus.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_delay.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_i2s_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_mixer.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_reverb.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_volume.v" type="file.verilog" enable="1"/>
+        <File path="src/bt_score_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/builtin_guide_score.v" type="file.verilog" enable="1"/>
+        <File path="src/display_top.v" type="file.verilog" enable="1"/>
+        <File path="src/enc_detent.v" type="file.verilog" enable="1"/>
+        <File path="src/enc_param.v" type="file.verilog" enable="1"/>
+        <File path="src/epiano_engine.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi_tx_top.v" type="file.verilog" enable="1"/>
+        <File path="src/interaction_panel.v" type="file.verilog" enable="1"/>
+        <File path="src/key_cycle.v" type="file.verilog" enable="1"/>
+        <File path="src/key_debounce.v" type="file.verilog" enable="1"/>
+        <File path="src/key_long_press.v" type="file.verilog" enable="1"/>
+        <File path="src/key_matrix_5x5.v" type="file.verilog" enable="1"/>
+        <File path="src/key_pulse.v" type="file.verilog" enable="1"/>
+        <File path="src/key_toggle.v" type="file.verilog" enable="1"/>
+        <File path="src/liss_plot.v" type="file.verilog" enable="1"/>
+        <File path="src/music_board_top.v" type="file.verilog" enable="1"/>
+        <File path="src/music_box_celesta_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/music_box_engine.v" type="file.verilog" enable="1"/>
+        <File path="src/music_box_state_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/music_box_vstate.v" type="file.verilog" enable="1"/>
+        <File path="src/music_score_loader.v" type="file.verilog" enable="1"/>
+        <File path="src/music_score_player.v" type="file.verilog" enable="1"/>
+        <File path="src/music_score_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/music_seq.v" type="file.verilog" enable="1"/>
+        <File path="src/music_top.v" type="file.verilog" enable="1"/>
+        <File path="src/performance_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/piano_adsr_lut.v" type="file.verilog" enable="1"/>
+        <File path="src/piano_effects.v" type="file.verilog" enable="1"/>
+        <File path="src/piano_engine.v" type="file.verilog" enable="1"/>
+        <File path="src/piano_envelope_bank.v" type="file.verilog" enable="1"/>
+        <File path="src/piano_envelope_state_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/piano_envelope_shared.v" type="file.verilog" enable="1"/>
+        <File path="src/piano_shared_wave_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/piano_voice.v" type="file.verilog" enable="1"/>
+        <File path="src/piano_voice_state_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/pitch_bend_ctl.v" type="file.verilog" enable="1"/>
+        <File path="src/pitch_ratio_lut.v" type="file.verilog" enable="1"/>
+        <File path="src/scope_capture.v" type="file.verilog" enable="1"/>
+        <File path="src/sd_spi_sector_reader.v" type="file.verilog" enable="1"/>
+        <File path="src/spectrum_engine.v" type="file.verilog" enable="1"/>
+        <File path="src/spi_byte_master.v" type="file.verilog" enable="1"/>
+        <File path="src/step_sequencer.v" type="file.verilog" enable="1"/>
+        <File path="src/strings_engine.v" type="file.verilog" enable="1"/>
+        <File path="src/test_mode_gate.v" type="file.verilog" enable="1"/>
+        <File path="src/tmds_encoder.v" type="file.verilog" enable="1"/>
+        <File path="src/tmds_serializer.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_ping_responder.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_record_stream.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_score_download.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/ui_ctrl_writer.v" type="file.verilog" enable="1"/>
+        <File path="src/ui_data_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/ui_snapshot.v" type="file.verilog" enable="1"/>
+        <File path="src/ui_text_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/ui_text_writer.v" type="file.verilog" enable="1"/>
+        <File path="src/video_clk_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/video_font_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/video_render.v" type="file.verilog" enable="1"/>
+        <File path="src/video_timing.v" type="file.verilog" enable="1"/>
+        <File path="src/wavetable_engine.v" type="file.verilog" enable="1"/>
+        <File path="src/wavetable_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/wavetable_rom_arbiter.v" type="file.verilog" enable="1"/>
+        <File path="src/wavetable_state_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/ws2812_guide_driver.v" type="file.verilog" enable="1"/>
+        <File path="src/music_1.cst" type="file.cst" enable="1"/>
+        <File path="src/music_1.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

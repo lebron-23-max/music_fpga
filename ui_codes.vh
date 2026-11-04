@@ -1,0 +1,20 @@
+// 由 gen_ui.js 生成：ui_text_writer 动态字段用到的中文字库码
+    localparam [7:0] CJK_GANG = 8'd165;   // 钢
+    localparam [7:0] CJK_QIN = 8'd166;   // 琴
+    localparam [7:0] CJK_BA = 8'd169;   // 八
+    localparam [7:0] CJK_YIN = 8'd128;   // 音
+    localparam [7:0] CJK_HE = 8'd170;   // 盒
+    localparam [7:0] CJK_KAI = 8'd213;   // 开
+    localparam [7:0] CJK_GUAN = 8'd214;   // 关
+    localparam [7:0] CJK_DIAN = 8'd152;   // 电
+    localparam [7:0] CJK_XIAN = 8'd171;   // 弦
+    localparam [7:0] CJK_YUE = 8'd129;   // 乐
+    localparam [7:0] CJK_LE = 8'd129;   // 乐
+    localparam [7:0] CJK_XIAO = 8'd215;   // 小
+    localparam [7:0] CJK_XING = 8'd216;   // 星
+    localparam [7:0] CJK_HUAN = 8'd217;   // 欢
+    localparam [7:0] CJK_SONG = 8'd218;   // 颂
+    localparam [7:0] CJK_LIANG = 8'd219;   // 两
+    localparam [7:0] CJK_ZHI = 8'd220;   // 只
+    localparam [7:0] CJK_LAO = 8'd221;   // 老
+    localparam [7:0] CJK_HU = 8'd222;   // 虎
